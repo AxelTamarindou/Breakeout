@@ -7,6 +7,10 @@ TagManager:
   - Jugador
   - Bloque
   - Bola
+  - VidaLayout
+  - Escombros
+  - BloqueCristal
+  - PowerUp
   layers:
   - Default
   - TransparentFX

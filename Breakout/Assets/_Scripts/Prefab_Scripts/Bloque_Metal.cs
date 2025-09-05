@@ -11,10 +11,14 @@ public class Bloque_Metal: Bloque
     // Update is called once per frame
     void Update()
     {
-        
+        if (resistencia <= 0)
+        {
+            Destroy(this.gameObject);
+            AumentarPuntaje.Invoke();
+        }
     }
-    public override void RebotarBola()
+    public override void RebotarBola(Collision collision)
     {
-        base.RebotarBola();
+        base.RebotarBola(collision);
     }
 }
