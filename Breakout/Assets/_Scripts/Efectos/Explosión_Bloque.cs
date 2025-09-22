@@ -30,13 +30,14 @@ public class Explosión_Bloque : MonoBehaviour
     {
         if (CreaPartículas)
         {
+            Vector3 posicionBola = GameObject.FindGameObjectWithTag("Bloque").transform.position;
             GameObject tempGameObject = Instantiate<GameObject>(PrefabParticula);
             tempGameObject.name = "ParticulaNumero" + numParticulas;
-            Vector3 posicionBola = GameObject.FindGameObjectWithTag("Bola").transform.position;
+            //Vector3 posicionBola = GameObject.FindGameObjectWithTag("Bloque").transform.position;
             posicionBola.z += 5;
-            tempGameObject.transform.position = posicionBola;
+            //tempGameObject.transform.position = posicionBola;
             listaDeParticulas.Add(tempGameObject);
-            Debug.Log($"Se borraran {listaDeParticulas.Count} partículas");
+            //Debug.Log($"Se borraran {listaDeParticulas.Count} partículas");
         }
 
         if (listaDeParticulas.Count >= 50)

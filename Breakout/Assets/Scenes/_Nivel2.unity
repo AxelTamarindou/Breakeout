@@ -172,6 +172,10 @@ PrefabInstance:
       value: Bloque 8
       objectReference: {fileID: 0}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Mensaje.m_PersistentCalls.m_Calls.Array.size
       value: 0
       objectReference: {fileID: 0}
@@ -565,6 +569,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque 4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Mensaje.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -1163,6 +1171,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1001 &224575641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1215,6 +1224,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque 3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Mensaje.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -1382,6 +1395,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1 &278527499
 GameObject:
   m_ObjectHideFlags: 0
@@ -1599,6 +1613,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1001 &298463121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2700,6 +2715,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
   PowerUp:
     m_PersistentCalls:
       m_Calls:
@@ -2759,6 +2775,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1 &553451097
 GameObject:
   m_ObjectHideFlags: 0
@@ -2951,6 +2968,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1 &562600890 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4915883279234172689, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
@@ -2995,6 +3013,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1 &566499732
 GameObject:
   m_ObjectHideFlags: 0
@@ -3368,6 +3387,10 @@ PrefabInstance:
       value: Bloque 7 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Mensaje.m_PersistentCalls.m_Calls.Array.size
       value: 0
       objectReference: {fileID: 0}
@@ -3718,6 +3741,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -3819,6 +3843,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque 6 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Mensaje.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -3925,6 +3953,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque 9 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Mensaje.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -4036,6 +4068,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque
       objectReference: {fileID: 0}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Mensaje.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -4198,6 +4234,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1001 &936021954
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4250,6 +4287,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque 8 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Mensaje.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -4457,6 +4498,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
   PowerUp:
     m_PersistentCalls:
       m_Calls:
@@ -4792,6 +4834,10 @@ PrefabInstance:
       value: Bloque 4
       objectReference: {fileID: 0}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Mensaje.m_PersistentCalls.m_Calls.Array.size
       value: 0
       objectReference: {fileID: 0}
@@ -4958,6 +5004,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1001 &1082734545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4970,6 +5017,10 @@ PrefabInstance:
       propertyPath: jugador
       value: 
       objectReference: {fileID: 1973755683}
+    - target: {fileID: 3838386505261999139, guid: 64196e5ff1b26164d877d6ffc7dc260c, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
     - target: {fileID: 3838386505261999139, guid: 64196e5ff1b26164d877d6ffc7dc260c, type: 3}
       propertyPath: BolaDestruida.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -5227,6 +5278,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
   PowerUp:
     m_PersistentCalls:
       m_Calls:
@@ -5586,6 +5638,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1001 &1138111566
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5699,6 +5752,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1001 &1138222143
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5751,6 +5805,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Mensaje.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -5918,6 +5976,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1 &1190032464
 GameObject:
   m_ObjectHideFlags: 0
@@ -6708,6 +6767,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque 6
       objectReference: {fileID: 0}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Mensaje.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -7922,6 +7985,10 @@ PrefabInstance:
       value: Bloque 5
       objectReference: {fileID: 0}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Mensaje.m_PersistentCalls.m_Calls.Array.size
       value: 0
       objectReference: {fileID: 0}
@@ -8273,6 +8340,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1 &1645119980
 GameObject:
   m_ObjectHideFlags: 0
@@ -8537,6 +8605,10 @@ PrefabInstance:
       value: Bloque 9
       objectReference: {fileID: 0}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Mensaje.m_PersistentCalls.m_Calls.Array.size
       value: 0
       objectReference: {fileID: 0}
@@ -8729,6 +8801,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque 5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Mensaje.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -8973,6 +9049,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Mensaje.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -9346,6 +9426,10 @@ PrefabInstance:
       value: Bloque 2 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: resistencia
       value: 1
       objectReference: {fileID: 0}
@@ -9624,6 +9708,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!114 &2046755775 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3838386505261999139, guid: 64196e5ff1b26164d877d6ffc7dc260c, type: 3}
@@ -10140,6 +10225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: resistencia
       value: 1

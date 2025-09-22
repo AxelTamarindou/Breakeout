@@ -841,6 +841,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1190032465}
     m_Modifications:
     - target: {fileID: 548011951922843931, guid: 19a0114389fee814c913590b9749497f, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
+    - target: {fileID: 548011951922843931, guid: 19a0114389fee814c913590b9749497f, type: 3}
       propertyPath: resistencia
       value: 5
       objectReference: {fileID: 0}
@@ -1847,6 +1851,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1190032465}
     m_Modifications:
     - target: {fileID: 548011951922843931, guid: 19a0114389fee814c913590b9749497f, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
+    - target: {fileID: 548011951922843931, guid: 19a0114389fee814c913590b9749497f, type: 3}
       propertyPath: resistencia
       value: 5
       objectReference: {fileID: 0}
@@ -2083,6 +2091,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1 &553451097
 GameObject:
   m_ObjectHideFlags: 0
@@ -2206,6 +2215,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1 &562622221
 GameObject:
   m_ObjectHideFlags: 0
@@ -2816,6 +2826,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1 &652690938
 GameObject:
   m_ObjectHideFlags: 0
@@ -2963,6 +2974,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1001 &786088971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3015,6 +3027,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Particulas.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -3336,6 +3352,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque
       objectReference: {fileID: 0}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Particulas.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -3778,6 +3798,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1001 &1037501357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3830,6 +3851,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque 3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Particulas.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -4055,6 +4080,10 @@ PrefabInstance:
       propertyPath: jugador
       value: 
       objectReference: {fileID: 1487535021}
+    - target: {fileID: 3838386505261999139, guid: 64196e5ff1b26164d877d6ffc7dc260c, type: 3}
+      propertyPath: opciones
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
     - target: {fileID: 3838386505261999139, guid: 64196e5ff1b26164d877d6ffc7dc260c, type: 3}
       propertyPath: velocidadBola
       value: 45
@@ -4700,6 +4729,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1 &1200304683
 GameObject:
   m_ObjectHideFlags: 0
@@ -5578,6 +5608,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1001 &1370454414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5630,6 +5661,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque 2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Particulas.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -6339,6 +6374,10 @@ PrefabInstance:
       value: Bloque 3 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Particulas.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -6670,6 +6709,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Particulas.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -7233,6 +7276,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1001 &1656288233
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7285,6 +7329,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Particulas.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -8121,6 +8169,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1001 &1941169378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8234,6 +8283,7 @@ MonoBehaviour:
   Mensaje:
     m_PersistentCalls:
       m_Calls: []
+  dificultad: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
 --- !u!1001 &1973755682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8690,6 +8740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloque 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
+      propertyPath: dificultad
+      value: 
+      objectReference: {fileID: 11400000, guid: 10904133a438ede468a04ff9c160c132, type: 2}
     - target: {fileID: 5099810419758326269, guid: bbcbb6648b0e53046a99459fd5e674db, type: 3}
       propertyPath: Particulas.m_PersistentCalls.m_Calls.Array.size
       value: 1
