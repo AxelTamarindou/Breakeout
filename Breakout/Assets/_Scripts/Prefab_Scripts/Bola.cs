@@ -6,7 +6,8 @@ using UnityEngine.Events;
 public class Bola : MonoBehaviour
 {
     public bool isGameStarted;
-    [SerializeField] public float velocidadBola = 10.0f;
+    public Opciones opciones;
+    [SerializeField] public float velocidadBola;
     [SerializeField] public int vidasBola = 3;
     Vector3 ultimaPosicion = Vector3.zero;
     Vector3 direccion = Vector3.zero;
@@ -14,6 +15,7 @@ public class Bola : MonoBehaviour
     private Control_Bordes control;
     public UnityEvent BolaDestruida;
     public Jugador jugador;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Awake()
     {
@@ -34,6 +36,7 @@ public class Bola : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        velocidadBola = opciones.velocidadBola;
         if (control.salioAbajo || jugador.ChoqueConEscombros)
         {
             BolaDestruida.Invoke();

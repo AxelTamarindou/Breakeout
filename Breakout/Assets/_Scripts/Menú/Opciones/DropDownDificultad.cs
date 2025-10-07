@@ -12,5 +12,8 @@ public class DropDownDificultad: MonoBehaviour
     {
         dificultad = GetComponent<Dropdown>();
         dificultad.onValueChanged.AddListener(delegate { opciones.CambiarDificultad(dificultad.value); });
+        Debug.Log(opciones.NivelDificultad);
     }
+
+    
 }
