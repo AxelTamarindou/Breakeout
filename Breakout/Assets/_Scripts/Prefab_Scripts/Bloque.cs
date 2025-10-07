@@ -46,6 +46,7 @@ public class Bloque : MonoBehaviour
         {
             Destroy(this.gameObject);
             AumentarPuntaje.Invoke();
+            GameObject.FindGameObjectWithTag("AdminEfectos").GetComponent<Explosion_Bloque>().ExplosionBloque = this.gameObject.transform;
             Particulas.Invoke();
         }
     }

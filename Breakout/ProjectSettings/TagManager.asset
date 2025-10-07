@@ -11,6 +11,7 @@ TagManager:
   - Escombros
   - BloqueCristal
   - PowerUp
+  - AdminEfectos
   layers:
   - Default
   - TransparentFX

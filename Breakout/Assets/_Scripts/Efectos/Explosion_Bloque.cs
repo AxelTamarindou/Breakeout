@@ -5,7 +5,7 @@ using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class Explosión_Bloque : MonoBehaviour
+public class Explosion_Bloque : MonoBehaviour
 {
     public GameObject PrefabParticula;
     public List<GameObject> listaDeParticulas;
@@ -14,6 +14,7 @@ public class Explosión_Bloque : MonoBehaviour
     public Bola bola;
     public bool CreaPartículas = false;
     public bool ExplosionBloque = false;
+    public Transform BloqueT;
     
     void Start()
     {
@@ -30,12 +31,10 @@ public class Explosión_Bloque : MonoBehaviour
     {
         if (CreaPartículas)
         {
-            Vector3 posicionBola = GameObject.FindGameObjectWithTag("Bloque").transform.position;
             GameObject tempGameObject = Instantiate<GameObject>(PrefabParticula);
             tempGameObject.name = "ParticulaNumero" + numParticulas;
-            //Vector3 posicionBola = GameObject.FindGameObjectWithTag("Bloque").transform.position;
-            posicionBola.z += 5;
-            //tempGameObject.transform.position = posicionBola;
+            Vector3 PosicionParticulas = tempGameObject.transform.position = BloqueT.position;
+            PosicionParticulas.y += 5;
             listaDeParticulas.Add(tempGameObject);
             //Debug.Log($"Se borraran {listaDeParticulas.Count} partículas");
         }
